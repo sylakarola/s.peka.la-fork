@@ -51,7 +51,7 @@ One of the next features we worked on was the profile page. That part of the
 website had never been given enough love. It had never been prioritized due to its low visibility compared to other parts of the site. However, during our interviews we discovered it was a go-to place for many users as they often stater their user journey there. The
 profile page was a "safe" for all the projects users submitted or sets they
 followed to know the current state of things. We decided
-to revisit its design. We started with a user test at LEGO World (a yearly event happening in Copenhagen) where we
+to revisit its design. We started with a user test at <abbr title="a yearly event happening in Copenhagen">LEGO World</abbr> where we
 presented the existing at that time profile page and asked for feedback. On that
 day we collected a lot of information around information architecture and jobs
 to be done on and around that page. Next, we sketched scenarios for all user groups,
