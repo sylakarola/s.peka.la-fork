@@ -14,7 +14,7 @@ export function Email() {
   );
 }
 
-export function InVision() {
+export function LinkedIn() {
   return (
     <svg
       className="h-4 w-4"
