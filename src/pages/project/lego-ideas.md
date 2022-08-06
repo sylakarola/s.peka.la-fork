@@ -17,7 +17,7 @@ experiences for the adult audience.
 
 ## From Problems to Ideas
 
-Soon after establishing the user testing setup for LEGO® Ideas, we discovered the user group who struggled most were newcomers to the site. Whether a creator or
+Soon after establishing the user [testing setup](./lego-ideas-user-testing) for LEGO® Ideas, we discovered the user group who struggled most were newcomers to the site. Whether a creator or
 observer, people missed out on differences between presented submissions.
 This resulted in low task success rate and decrease in time spent on the site. Most importantly however, it was obvious to us they were confused. In
 order to solve the issue, we decided to create a basic “How it works” page to guide people
@@ -68,7 +68,7 @@ profile that we believed provided our users
 ![](/assets/sketch.png)
 
 I moved away from the project before we managed to implement the new design and
-learn from it through analytics and user interviews. The new page can be found
-on LEGO® Ideas.
+learn from it through analytics and user interviews. The redesigned page can be currently found
+after loggin in on [LEGO® Ideas](https://ideas.lego.com/profile/ebcf1702-1383-4be5-af52-13746e004181/entries?query=&sort=top).
 
 ![](/assets/mobile.png)

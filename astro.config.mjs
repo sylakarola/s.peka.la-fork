@@ -1,7 +1,7 @@
-import { defineConfig } from "astro/config";
-import preact from "@astrojs/preact";
+import { defineConfig } from 'astro/config';
+import preact from '@astrojs/preact';
 
-import tailwind from "@astrojs/tailwind";
+import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,9 +9,10 @@ export default defineConfig({
   markdown: {
     rehypePlugins: [
       [
-        "rehype-add-classes",
+        'rehype-add-classes',
         {
-          img: "mx-auto",
+          img: 'mx-auto',
+          a: 'underline',
         },
       ],
     ],
