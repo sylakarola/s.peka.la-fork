@@ -1,0 +1,30 @@
+---
+const { project } = Astro.props;
+---
+
+<div class="flex flex-col gap-2">
+	{project.frontmatter.thumb && project.frontmatter.thumb_mode === 'contain' &&
+	<div class="bg-gray-300 rounded-lg p-4">
+		<a href={project.url} tabindex="-1"><img class="object-contain w-full h-60 rounded-lg"
+				src={project.frontmatter.thumb}></a>
+	</div>
+	}
+	{project.frontmatter.thumb && project.frontmatter.thumb_mode !== 'contain' &&
+	<div class="bg-gray-300 rounded-lg">
+		<a href={project.url} tabindex="-1"><img class="object-cover w-full h-[17rem] rounded-lg"
+				src={project.frontmatter.thumb}></a>
+	</div>
+	}
+	{!project.frontmatter.thumb &&
+	<div class="bg-gray-300 rounded-lg">
+		<a href={project.url} tabindex="-1"><img class="object-cover w-full h-[17rem] rounded-lg opacity-50"
+				src={project.frontmatter.img}></a>
+	</div>
+	}
+	<div>
+		<a href={project.url}>
+			<div class="text-lg font-semibold">{project.frontmatter.title}</div>
+			<div class="text-brand-100">Role: {project.frontmatter.role}</div>
+		</a>
+	</div>
+</div>

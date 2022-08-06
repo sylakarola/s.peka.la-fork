@@ -1,0 +1,26 @@
+---
+import Logo from "./logo";
+import { InVision, Email } from './icons'
+
+---
+
+<footer class="p-5">
+  <div class="container mx-auto flex sm:flex-row flex-col sm:gap-0 gap-5 justify-between items-center max-w-screen-lg">
+    <div class="flex gap-4 items-center">
+      <Logo strokeClass="stroke-black" sizeClass="w-14" />
+      <div class="text-xs leading-4">
+        <strong>Sylwia Pekala</strong><br />
+        Product Designer
+      </div>
+    </div>
+    <div class="text-xs flex gap-4">
+      <a href="mailto:s@peka.la" class="text-xs flex gap-1">
+        <Email /> s@peka.la
+      </a>
+      <a href="" class="text-xs flex gap-1">
+        <InVision /> in/sylwia-dluzniewska
+      </a>
+    </div>
+    <div class="text-sm">&copy; {new Date().getFullYear()}</div>
+  </div>
+</footer>

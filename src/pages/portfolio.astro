@@ -1,0 +1,50 @@
+---
+import MainHead from "../components/main-head.astro";
+import Footer from "../components/footer.astro";
+import Nav from "../components/nav.astro";
+import PortfolioPreview from "../components/portfolio-preview.astro";
+import ContactSection from "../components/contact-section.astro";
+
+const projects = (await Astro.glob("./project/**/*.md")).sort(
+	(a, b) => b.frontmatter.date - a.frontmatter.date
+);
+---
+
+<html lang="en">
+
+<head>
+	<MainHead title="Portoflio | Sylwia Pekala" description="Learn about Sylwias recent projects" />
+</head>
+
+<body>
+	<Nav />
+	<header class="bg-brand-50 px-4 py-10">
+		<div class="container mx-auto max-w-screen-lg flex flex-col gap-8">
+			<h1 class="text-white text-3xl">Portfolio</h1>
+			<div class="text-white text-base max-w-prose">
+				<p>
+					The work of a digital designer is more than what you see on the screen. Creating meaningful designs
+					is
+					paved
+					with hours of finding user problems and stakeholders’ needs.
+				</p>
+				<p>
+					A small selection of my work is presented below, together with an outline of processes, problems and
+					solutions that followed. To hear more about my work, don’t hesitate to send me an email.
+				</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="py-10 px-4">
+			<div class="container mx-auto max-w-screen-lg grid gap-x-4 gap-y-10 grid-cols-1 sm:grid-cols-2">
+				{projects.map((project) =>
+				<PortfolioPreview project={project} />)}
+			</div>
+		</section>
+		<ContactSection />
+	</main>
+	<Footer />
+</body>
+
+</html>

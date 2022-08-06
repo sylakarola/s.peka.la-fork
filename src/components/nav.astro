@@ -1,0 +1,22 @@
+---
+import Logo from "./logo";
+import NavLink from "./nav-link";
+
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1);
+---
+
+<nav class="p-5 bg-brand-100">
+  <div class="container mx-auto flex max-w-screen-lg items-center">
+    <div class="grow">
+      <a href="/" class="flex items-center gap-2">
+        <Logo strokeClass="stroke-pink-300" sizeClass="w-16" />
+        <div class="text-pink-300 text-lg leading-5 tracking-widest">Sylwia<br />Pekala</div>
+      </a>
+    </div>
+    <div>
+      <NavLink href="/" currentPath={currentPath}>About</NavLink>
+      <NavLink href="/portfolio" currentPath={currentPath}>Portfolio</NavLink>
+    </div>
+  </div>
+</nav>

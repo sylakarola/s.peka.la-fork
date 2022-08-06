@@ -1,0 +1,40 @@
+---
+import MainHead from "../components/main-head.astro";
+import Footer from "../components/footer.astro";
+import Nav from "../components/nav.astro";
+
+const { content } = Astro.props;
+const styleDark = `background-image: linear-gradient(rgba(0,89,126,1) 0%, rgba(0,89,126,0.8) 20%, rgba(27, 113, 149,0.8)
+		80%, rgba(27, 113, 149,1) 100%), url(${content.img})`
+const styleLight = `background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(${content.img})`
+---
+
+<html lang={content.lang || "en" }>
+
+<head>
+	<MainHead title={`Sylwia Pekala: ${content.title}`}
+		description="Portfolio project of Sylwia Pekala, a Senior Product Designer" />
+</head>
+
+<body>
+	<Nav />
+	<header style={content.img_theme==='light' ? styleLight : styleDark}
+		class="h-80 bg-no-repeat bg-top bg-cover flex flex-col gap-5 justify-center items-center">
+		{content.logo && <img src={content.logo} class="md:w-96 w-52" />}
+		{!content.logo && <h1 class="text-white text-5xl uppercase font-semibold font-heading">{content.title}</h1>}
+		<div class="text-white uppercase font-semibold">{content.type}</div>
+	</header>
+	<div class="bg-brand-50">
+		<div class="container mx-auto max-w-screen-lg text-white p-4">
+			ROLE: <strong>{content.role}</strong>
+		</div>
+	</div>
+	<main>
+		<div class="container mx-auto max-w-prose prose lg:prose-lg prose-stone py-10 px-4">
+			<slot />
+		</div>
+	</main>
+	<Footer />
+</body>
+
+</html>

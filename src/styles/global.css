@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes sylwer-path {
+  from {
+    transform: translate(0, 0px);
+  }
+  40% {
+    transform: translate(var(--animation-x), var(--animation-y));
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}

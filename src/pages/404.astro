@@ -1,0 +1,23 @@
+---
+import MainHead from "../components/main-head.astro";
+import Nav from "../components/nav.astro";
+---
+
+<html lang="en">
+
+<head>
+	<MainHead title="Not Found" />
+</head>
+
+<body>
+	<Nav />
+	<main class="h-screen w-full flex flex-col justify-center items-center bg-brand-100">
+		<h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+		<div class="px-2 text-white text-base">
+			Page Not Found
+		</div>
+		<a href="/" class="p-10 block text-white text-base ">← Back to Home</a>
+	</main>
+</body>
+
+</html>
