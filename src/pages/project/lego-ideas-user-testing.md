@@ -68,7 +68,7 @@ while working with all future ideas and features.
 
 ![Visual outcomes of the user test](/assets/ideas-test.jpeg)
 
-This very first UX discovery lead us to creating an onboarding page with easily
+This very first UX discovery lead us to creating an [onboarding page](https://ideas.lego.com/howitworks) with easily
 digestible information about products and clear
 <abbr title="Call To Action">CTA</abbr>s that followed user journeys of the different
 personas.
