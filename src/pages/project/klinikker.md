@@ -10,15 +10,16 @@ thumb: /assets/klinikker-thumb.png
 thumb_mode: contain
 ---
 
-[Klinikker.dk](klinikker.dk) is a Danish search and scheduling platform for
-medical care. In 2016 I worked with the Klinikker team on the redesign of the
-logo and the company’s identity. The company’s goal was to gain a broad audience
-of patients and clinic owners. To do so they needed a reliable visual image and
-well functioning platform. In my work I focused on having a coherent visual
+[Klinikker.dk](https://klinikker.dk) is a Danish search and scheduling platform for
+medical care. 
+
+In 2016 I worked with the Klinikker team on the redesign of the
+logo and the brand identity. At that time, the company’s goal was to gain a broad audience
+of patients and clinic owners. To do so, they needed a reliable visual image and
+well functioning platform. I focused on having a coherent visual
 image and user experience of their website. I designed visual guidelines
-containing color scheme, icons, symbols and other graphic elements to match each
-other. The main user experience focus was put on the user flow of the search
-engine, simplicity of sign up and accessibility.
+containing color scheme, icons, symbols and other graphic elements to match medical care universe. The main user experience focus was put on the user flow of the search
+engine, simplicity of sign up, and accessibility.
 
 ## Logo
 
@@ -46,7 +47,7 @@ version of the website contains the scaled down version.
 ## Web Design
 
 When I joined, the company had two user types: clinics and patients. The needs
-of both had to be addressed differently. When I was entering the project the
+of both had to be addressed differently. When I was entering the project, the
 problem I had to solve was to optimize the website for the clinics. That part
 was especially important due to the fact that clinic owners were the paying
 users.
@@ -86,7 +87,7 @@ done so, we rolled out the following booking flow:
 
 ### Sign Up A/B Testing
 
-We also test sign up that would at that point be the crossroad for the two types
+We also tested sign up flow that was a crossroad for the two types
 of users we served. Based on results we chose one that asked the user to put in
 their email and presented two buttons: “I’m a patient” and “I’m a clinic”.
 
@@ -100,3 +101,5 @@ it was important we made contact forms easily accessible on the site. The
 following presents way of finding contact information (in orange):
 
 ![](/assets/contact-flow.png)
+
+During my time in the company I also learned basics of html and css, and used them in prototyping. 
