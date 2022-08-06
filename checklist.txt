@@ -2,7 +2,7 @@ Syl: dociac zdjecia, zeby lepiej centrowaly w okladkach projektow
 Dodac gif na koniec zamiast static do lego-ideas.md (figma)
 Nawigacja mobilna usunac imie i nazwisko z logo
 Dodac logo icon image w browser tabs
-Mikrointerakcje: buttons hover over(animacja obrys? / wypelnianie radial?) i hover over thumbnails (dodac color overlay 10%? na hover over i lekki zoom na zdjecie)
+Mikrointerakcje: buttons hover over(animacja obrys? / wypelnianie radial? albo zmienia kolor rozowy<->niebieski) i hover over thumbnails (dodac color overlay 10%? na hover over i lekki zoom na zdjecie)
 Bullet points na rozowo
 Podkreslic wszystkie linki
 Na koniec kazdego projektu dodac na dole button "Back to overview"
